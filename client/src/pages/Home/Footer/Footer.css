@@ -1,0 +1,41 @@
+.footer {
+    background-color: #f0f0f0;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-heading {
+    margin-bottom: 10px;
+  }
+  
+  .footer-email {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-icon {
+    margin-right: 10px;
+  }
+  
+  .footer-link {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer {
+      height: auto;
+      padding: 20px 0;
+    }
+  }
+  
