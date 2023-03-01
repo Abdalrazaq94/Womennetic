@@ -14,9 +14,9 @@ const Footer = () => {
          
           <h4 className="footer2-heading">Email Address</h4>
           </div>
-          <a href="mailto:weomeenttic@gmail.com" className="footer-link">
+          <a href="info@womennetic.com" className="footer-link">
           
-          weomeenttic@gmail.com
+          info@womennetic.com
           
         </a>
         </div>
