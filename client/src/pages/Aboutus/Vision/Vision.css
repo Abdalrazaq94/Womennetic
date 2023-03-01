@@ -20,8 +20,8 @@
   
   .wem-Vision-txt {
     margin-bottom: 30px;
-    font-size: 30px;
-    text-decoration: underline;
+    font-size: 35px;
+  
   }
   
   .Vision-txt {
@@ -33,20 +33,20 @@
     height: 650px;
     margin-bottom: 40PX;
   }
-  
+  .Vision-main-txt{
+    padding: 7px;
+     width: 80%;
+    font-size: 22px;
+  }
   .Vision-txt p {
-    width: 90%;
+    width: 80%;
     display: block;
   }
   
-.list-vision{
-    width: 80%;
-}
+
 
   
-  .wom-but {
-    margin-top: 26px;
-  }
+ 
   
   .Vision-text-img {
     width: 50%;

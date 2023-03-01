@@ -39,7 +39,7 @@
 	left: 562px;
 	top: 586px;
 	border-radius: 28px;
-	background-color: #1789fc;
+	background-color: #f0b325;
 	border-radius: 28px;
 	font-family: Fredoka;
 	font-size: 22px;
@@ -50,7 +50,8 @@
 	color: #ffffff;
 }
 #home-left-bt:hover {
-	background-color: #f0b325;
+
+  background-color: #1789fc;
 	color: #ffffff;
 }
 

@@ -1,0 +1,40 @@
+.code-of-conduct {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  
+  .code-of-conduct h2 {
+    font-size: 32px;
+    margin-top: 0;
+  }
+  
+  .code-of-conduct h3 {
+    font-size: 24px;
+    margin-top: 32px;
+  }
+  
+  .code-of-conduct p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 16px;
+  }
+  
+  .code-of-conduct ul {
+    list-style: disc;
+    margin-left: 32px;
+    margin-top: 16px;
+  }
+  
+  .code-of-conduct li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+  .code-of-conduct a{
+    color: blue;
+  }
+  .code-of-conduct span{
+    font-weight: bold;
+  }

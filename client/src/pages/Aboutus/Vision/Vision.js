@@ -14,32 +14,11 @@ function Vision() {
 							A Tech world that Values and Empowers women from all backgrounds.
 						</p>
 						<p className="wem-Vision-txt">Our Mission</p>
-					
-							<ul className="list-vision">
-								<li>
-								We aim to create a person-centered, accessible, and nurturing
-									community.{" "}
-								</li>
-								<li>
-									We will exceed our member’s expectations by respecting who
-									they are and what is important to them. Our member’s
-									satisfaction is the key to our success.
-								</li>
-								<li>
-									We will deliver person-focused and tailored support. Our sole
-									purpose is responding to people’s needs.
-								</li>
-								<li>
-									We will provide a safe space for our community. Our priority
-									is to have an open, transparent, safe, and respectful culture.{" "}
-								</li>
-								<li>
-									The success of our vision is also dependent on our community.
-									Our dedication involves creating opportunities, supporting
-									relationship building, and providing accessible resources.{" "}
-								</li>
-							</ul>
-						
+						<p className="Vision-main-txt">
+							We aim to create a person-centred, accessible, and nurturing
+							community. We will provide a safe space for our community. Our
+							community member’s satisfaction is the key to our success.
+						</p>
 					</div>
 				</div>
 			</div>
