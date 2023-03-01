@@ -1,0 +1,13 @@
+.Homebody-about-con{
+    width: 100%;
+    height: 650px;
+    box-sizing: border-box;
+}
+.HomeBody-about-card{
+    background-image: url("./About-homebody.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: contain ;
+    height: 650px;
+    width: 100%;
+}

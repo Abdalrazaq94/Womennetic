@@ -17,7 +17,7 @@ function JoinOurCommunity() {
 							from other migrant communities in Scotland.{" "}
 						</p>
 						<div className="wom-but">
-							<Link className="home-link" to="/create-laptop-requests">
+							<Link className="home-link" to="/About">
 								<button className="home-bt" id="home-left-bt">
 									READ MORE
 								</button>

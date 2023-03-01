@@ -11,19 +11,14 @@ function Event() {
 				<div className="Event-text-card">
                     
 					<div className="Event-txt">
-						<p className="wem-event-txt">Womennetic</p>
+						<p className="wem-event-txt">Our International Women’s Day Event </p>
 						<p className="Event-main-txt">
-							Womennetic is a not for profit, constituted grassroots. We are a
-							group of volunteers who believe in responding to social needs, by
-							creating channels and opportunities for women to go in to Tech. We
-							believe in supporting women from marginalised groups, from socio
-							economic backgrounds. Women who are asylum seekers, refugees and
-							from other migrant Eventmunities in Scotland.{" "}
+                        Join us at our IWD2023 event #DigitALL: Come Along and Get Inspired on 11th March 2023.
 						</p>
 						<div className="wom-but">
-							<Link className="home-link" to="/create-laptop-requests">
+							<Link className="home-link" to="/">
 								<button className="home-bt" id="home-left-bt">
-									READ MORE
+									CLICK TO REGISTER
 								</button>
 							</Link>
 						</div>

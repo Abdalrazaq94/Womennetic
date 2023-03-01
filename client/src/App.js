@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom";
 
-import Aboutus from "./pages/Aboutus/Aboutus";
+import About from "./pages/Aboutus/Aboutus";
 import Home from "./pages/Home/Home";
 
 const App = () => (
 	<Routes>
 		<Route path="/" element={<Home />} />
-		<Route path="/about/this/site" element={<Aboutus />} />
+		<Route path="/About" element={<About />} />
 	</Routes>
 );
 

@@ -53,10 +53,7 @@
 	background-color: #f0b325;
 	color: #ffffff;
 }
-#home-left-bt:active {
-	background-color: #1de835;
-	color: #ffffff;
-}
+
   /* Tablet Styles */
   @media (max-width: 768px) {
     .start-picture-container {

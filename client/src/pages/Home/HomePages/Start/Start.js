@@ -9,7 +9,7 @@ function Start() {
               <p>Start a career in Tech?</p> 
             </div>
             <div className="start-but">
-            <Link className="home-link" to="/create-laptop-requests">
+            <Link className="home-link" to="/">
 							<button className="home-bt" id="home-left-bt">
 								JOIN OUR COMMUNITY
 							</button>

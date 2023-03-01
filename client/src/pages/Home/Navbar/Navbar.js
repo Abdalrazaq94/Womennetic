@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import "./Navbar.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
 import logo from "../Navbar/womennetic-logo.jpeg";
@@ -9,10 +9,10 @@ import logo from "../Navbar/womennetic-logo.jpeg";
 const Navbar = (props) => {
 	const [Mobile, setMobile] = useState(false);
 	return (
-
 		<>
 			<nav className="navbar">
-				<img className="logo" src={logo} alt="logo" />
+				<Link className="logo" to={"/"}><img className="logo" src={logo} alt="logo" /></Link>
+				
 
 				<ul
 					className={Mobile ? "nav-links-mobile" : "nav-links"}
@@ -29,14 +29,14 @@ const Navbar = (props) => {
 						<li>HOME</li>
 					</NavLink>
 					<NavLink
-						to="/create-donator-requests"
+						to="/About"
 						className="about"
 						activeClassName="active-nav-links"
 					>
 						<li>ABOUT US</li>
 					</NavLink>
 					<NavLink
-						to="/create-laptop-requests"
+						to="/code-of-conduct"
 						className="services"
 						activeClassName="active-nav-links"
 					>
@@ -49,7 +49,6 @@ const Navbar = (props) => {
 				</button>
 			</nav>
 		</>
-		
 	);
 };
 export default Navbar;

@@ -1,14 +1,22 @@
-const About = () => (
-	<main role="main">
-		<div>
-			<h1>About</h1>
-			<p>
-				Starter kit for full-stack JavaScript projects. For more information,
-				see the wiki:
-			</p>
-			<a href="https://github.com/textbook/starter-kit/wiki">Wiki</a>
-		</div>
-	</main>
-);
+import React from "react";
+import Navbar from "../Home/Navbar/Navbar";
+import HomeBody from "./HomeBody/HomeBody";
+import MainAbout from "./MainAbout/MainAbout";
+import Vision from "./Vision/Vision";
+import Values from "./Values/Values";
+import Footer from "../Home/Footer/Footer"
+
+function About() {
+	return (
+		<>
+			<Navbar />
+			<HomeBody />
+			<MainAbout />
+			<Vision />
+			<Values />
+			<Footer />
+		</>
+	);
+}
 
 export default About;

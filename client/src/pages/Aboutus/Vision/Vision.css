@@ -1,16 +1,16 @@
-.Event-container {
+.Vision-container {
     width: 100%;
     height: 650px;
     box-sizing: border-box;
     background-color: #d68e5e;
   }
   
-  .Event-card {
+  .Vision-card {
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
   }
   
-  .Event-text-card {
+  .Vision-text-card {
     width: 50%;
     display: flex;
     text-align: center;
@@ -18,12 +18,13 @@
     justify-content: center;
   }
   
-  .wem-event-txt {
+  .wem-Vision-txt {
     margin-bottom: 30px;
-    font-size: 40px;
+    font-size: 30px;
+    text-decoration: underline;
   }
   
-  .Event-txt {
+  .Vision-txt {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -33,21 +34,21 @@
     margin-bottom: 40PX;
   }
   
-  .Event-txt p {
-    width: 70%;
+  .Vision-txt p {
+    width: 90%;
     display: block;
   }
   
-  .Event-main-txt {
+.list-vision{
     width: 80%;
-    font-size: 22px;
-  }
+}
+
   
   .wom-but {
     margin-top: 26px;
   }
   
-  .Event-text-img {
+  .Vision-text-img {
     width: 50%;
     display: flex;
     text-align: center;
@@ -55,11 +56,10 @@
     justify-content: center;
   }
   
-  .Event-img {
+  .Vision-img {
+    background-image: url("./Vision.JPG");
     width: 500px;
     height: 400px;
-
-    background-image: url("./Event.JPG");
     background-position: contain;
     background-repeat: no-repeat;
     background-size: contain;
@@ -67,15 +67,15 @@
   
   /* Responsive styles */
   @media screen and (max-width: 768px) {
-    .Event-card {
+    .Vision-card {
       flex-direction: column; /* Change flex direction for smaller screens */
     }
-    .Event-text-card,
-    .Event-text-img {
+    .Vision-text-card,
+    .Vision-text-img {
       width: 100%; /* Make cards and image full width on smaller screens */
       height: auto;
     }
-    .Event-txt p {
+    .Vision-txt p {
         height: auto;
       width: 90%; /* Increase text width on smaller screens */
     }

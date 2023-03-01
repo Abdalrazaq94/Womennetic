@@ -1,11 +1,7 @@
-.logo {
-	width: 100px;
-}
-
-.message {
-	color: blue;
-}
-
-.message:hover {
-	background-color: yellow;
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	
 }
