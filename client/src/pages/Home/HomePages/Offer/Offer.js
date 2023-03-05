@@ -18,7 +18,7 @@ function Offer() {
 						We offer peer to peer learning, expert support and other support tailored to people's needs 
 						</p>
                         <p className="offer-main-txt2">
-						We offer peer to peer learning, expert support and other support tailored to people's needs 
+						Our community is made up of friendly, passionate and respectful people who want to make a positive difference.
 						</p>
 						
 					</div>
