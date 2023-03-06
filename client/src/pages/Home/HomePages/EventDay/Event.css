@@ -65,19 +65,41 @@
     background-size: contain;
   }
   
-  /* Responsive styles */
   @media screen and (max-width: 768px) {
     .Event-card {
-      flex-direction: column; /* Change flex direction for smaller screens */
+      flex-direction: column;
     }
-    .Event-text-card,
-    .Event-text-img {
-      width: 100%; /* Make cards and image full width on smaller screens */
+    .Event-text-card{
+      width: 100%;
       height: auto;
+
+    }
+    .Event-text-img {
+      width: 100%;
+      height: auto;
+      padding: 30px;
     }
     .Event-txt p {
-        height: auto;
-      width: 90%; /* Increase text width on smaller screens */
+      height: auto;
+      width: 90%;
     }
   }
   
+  @media screen and (max-width: 480px) {
+    .Event-container {
+      height: auto;
+    }
+    .Event-txt {
+      height: auto;
+      margin-bottom: 40PX;
+      margin-top: -190PX;
+    
+    }
+    .Event-main-txt {
+      font-size: 18px;
+    }
+    .Event-img {
+      width: 100%;
+      width: 300px;
+    }
+  }

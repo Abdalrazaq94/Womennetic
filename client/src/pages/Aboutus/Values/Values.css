@@ -1,84 +1,122 @@
 .values-container {
+  width: 100%;
+  height: 650px;
+  box-sizing: border-box;
+  background-color: #edcbae;
+}
+
+.values-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.values-text-card {
+  width: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.vl-txt {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.vl-txt2 {
+  margin-top: 16px;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.values-txt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+}
+
+.values-txt p {
+  width: 80%;
+  display: block;
+}
+
+.values-main-txt {
+  font-size: 22px;
+}
+
+.wom-but {
+  margin-top: 26px;
+}
+
+.values-text-img {
+  width: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.value-img {
+  width: 100%;
+  height: 400px;
+  background-image: url("./Values.JPG");
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .values-container {
     width: 100%;
-    height: 650px;
-    box-sizing: border-box;
-    background-color: #edcbae;
+    height: auto;
+   
   }
-  
   .values-card {
-    display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
-  }
-  
-  .values-text-card {
-    width: 50%;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .vl-txt {
-    margin-bottom: 30px;
-    font-size: 40px;
-  }
-  .vl-txt2 {
-    margin-top: 16px;
-    margin-bottom: 30px;
-    font-size: 40px;
-  }
-  .values-txt {
-    display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 650px;
+  }
+  
+  .values-text-card{
+    width: 100%;
+    height: auto;
+  }
+  .values-text-img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
   }
   
   .values-txt p {
-    width: 80%;
-    display: block;
-  }
-  
-  .values-main-txt {
-    font-size: 22px;
-  }
-  
-  .wom-but {
-    margin-top: 26px;
-  }
-  
-  .values-text-img {
-    width: 50%;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    height: auto;
+    width: 90%;
   }
   
   .value-img {
-    width: 500px;
-    height: 400px;
-    background-image: url("./Values.JPG");
-    background-position: contain;
-    background-repeat: no-repeat;
-    background-size: contain;
+
+    padding: 20px;
+    height: 300px;
+    width: 100%;
   }
   
-  /* Responsive styles */
-  @media screen and (max-width: 768px) {
-    .values-card {
-      flex-direction: column; /* Change flex direction for smaller screens */
-    }
-    .values-text-card,
-    .values-text-img {
-      width: 100%; /* Make cards and image full width on smaller screens */
-      height: auto;
-    }
-    .values-txt p {
-        height: auto;
-      width: 90%; /* Increase text width on smaller screens */
-    }
+  .vl-txt {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   
+  .vl-txt2 {
+    font-size: 30px;
+   
+  }
+  
+  .values-main-txt {
+    font-size: 18px;
+  }
+  
+  .wom-but {
+    margin-top: 16px;
+  }
+}

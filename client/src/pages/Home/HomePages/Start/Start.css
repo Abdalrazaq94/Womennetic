@@ -55,32 +55,41 @@
 	color: #ffffff;
 }
 
+
   /* Tablet Styles */
-  @media (max-width: 768px) {
-    .start-picture-container {
-      height: auto;
-    }
-    .start-text {
-      margin-top: 30px;
-    }
-    .start-text p {
-      font-size: 40px;
-    }
+@media (max-width: 768px) {
+  .start-picture-container {
+    height: auto;
   }
-  
-  /* Phone Styles */
-  @media (max-width: 480px) {
-    .start-picture-container {
-      height: auto;
-      
-    }
-    .start-picture{
-        background-position: cover;
-    }
-    
-    .start-text {
-      margin-top: 50px;
-    }
-    .start-text p {
-      font-size: 30px
-  }    }
+  .start-text {
+    margin-top: 30px;
+  }
+  .start-text p {
+    font-size: 40px;
+  }
+}
+
+/* Phone Styles */
+@media (max-width: 480px) {
+  .start-picture-container {
+    height: auto;
+    max-height: 500px;
+  }
+  .start-picture {
+    height: auto;
+    padding: 30px;
+    max-height: 500px;
+    background-position: center;
+  }
+  .start-text {
+    margin-top: 20px;
+  }
+  .start-text p {
+    font-size: 30px;
+  }
+  .home-bt {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+  }
+}

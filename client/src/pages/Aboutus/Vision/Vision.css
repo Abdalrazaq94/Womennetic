@@ -1,83 +1,112 @@
 .Vision-container {
-    width: 100%;
-    height: 650px;
-    box-sizing: border-box;
-    background-color: #d68e5e;
-  }
-  
-  .Vision-card {
-    display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
-  }
-  
-  .Vision-text-card {
-    width: 50%;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .wem-Vision-txt {
-    margin-bottom: 30px;
-    font-size: 35px;
-  
-  }
-  
+  width: 100%;
+  height: 650px;
+  box-sizing: border-box;
+  background-color: #d68e5e;
+}
+
+.Vision-card {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+}
+
+.Vision-text-card {
+  width: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.wem-Vision-txt {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.Vision-txt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+  margin-bottom: 40px;
+}
+
+.Vision-main-txt {
+  padding: 7px;
+  width: 80%;
+  font-size: 22px;
+}
+
+.Vision-txt p {
+  width: 80%;
+  display: block;
+}
+
+.Vision-text-img {
+  width: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.Vision-img {
+  background-image: url("./Vision.JPG");
+  width: 500px;
+  height: 400px;
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Responsive styles for tablet */
+@media screen and (max-width: 992px) {
   .Vision-txt {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 650px;
-    margin-bottom: 40PX;
+    height: auto;
   }
-  .Vision-main-txt{
-    padding: 7px;
-     width: 80%;
-    font-size: 22px;
+
+  .Vision-main-txt {
+    font-size: 18px;
   }
+
   .Vision-txt p {
-    width: 80%;
-    display: block;
+    width: 90%;
   }
-  
 
-
-  
- 
-  
-  .Vision-text-img {
-    width: 50%;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
-  
   .Vision-img {
-    background-image: url("./Vision.JPG");
-    width: 500px;
-    height: 400px;
-    background-position: contain;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 80%;
+    height: auto;
   }
+}
+
+/* Responsive styles for phone */
+@media screen and (max-width: 576px) {
   
-  /* Responsive styles */
-  @media screen and (max-width: 768px) {
-    .Vision-card {
-      flex-direction: column; /* Change flex direction for smaller screens */
-    }
-    .Vision-text-card,
-    .Vision-text-img {
-      width: 100%; /* Make cards and image full width on smaller screens */
-      height: auto;
-    }
-    .Vision-txt p {
-        height: auto;
-      width: 90%; /* Increase text width on smaller screens */
-    }
+  .Vision-container {
+    width: 100%;
+    height: auto;
+
   }
-  
+  .Vision-text-card{
+    width: 100%;
+  }
+  .Vision-text-img {
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+   
+  }
+
+  .Vision-txt p {
+    width: 100%;
+  }
+
+  .Vision-img {
+    padding: 30px;
+    width: 100%;
+    height: 200px;
+    
+  }
+}

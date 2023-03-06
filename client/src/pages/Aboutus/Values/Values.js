@@ -1,5 +1,6 @@
 import React from "react";
 import "./Values.css";
+
 function Values() {
 	return (
 		<div className="values-container">
@@ -24,6 +25,7 @@ function Values() {
 					<div className="value-img"></div>
 				</div>
 			</div>
+
 		</div>
 	);
 }
